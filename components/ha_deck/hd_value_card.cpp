@@ -54,7 +54,7 @@ void HdValueCard::render_() {
     auto value_container = lv_obj_create(lv_main_);
     lv_obj_clear_flag(value_container, LV_OBJ_FLAG_CLICKABLE);
     lv_obj_set_width(value_container, lv_pct(100));
-    lv_obj_set_height(value_container, 20);
+    lv_obj_set_height(value_container, 2);
     lv_obj_set_align(value_container, LV_ALIGN_TOP_MID);
     lv_obj_set_flex_flow(value_container, LV_FLEX_FLOW_ROW);
     lv_obj_set_flex_align(value_container, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_END, LV_FLEX_ALIGN_START);
