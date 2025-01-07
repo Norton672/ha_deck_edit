@@ -40,17 +40,6 @@ void HdValueCard::render_() {
     lv_obj_set_width(lv_main_, w_ > 0 ? w_ : 110);
     lv_obj_clear_flag(lv_main_, LV_OBJ_FLAG_SCROLLABLE);
 
-    lv_obj_set_style_radius(lv_main_, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(lv_main_, lv_color_hex(0x999999), LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(lv_main_, 2, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(lv_main_, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(lv_main_, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(lv_main_, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
-
     auto value_container = lv_obj_create(lv_main_);
     lv_obj_clear_flag(value_container, LV_OBJ_FLAG_CLICKABLE);
     lv_obj_set_width(value_container, lv_pct(100));
