@@ -48,7 +48,7 @@ void HdValueCard::render_() {
     lv_obj_set_style_shadow_opa(lv_main_, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(lv_main_, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(lv_main_, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(lv_main_, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     auto value_container = lv_obj_create(lv_main_);
