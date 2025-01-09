@@ -99,7 +99,7 @@ void HdValueCard::render_() {
     lv_obj_set_x(text_container, 0);
     lv_obj_set_y(text_container, 1);
     lv_obj_set_width(text_container, lv_pct(100));
-    lv_obj_set_height(text_container, 24);
+    lv_obj_set_height(text_container, 2);
     lv_obj_set_align(text_container, LV_ALIGN_BOTTOM_MID);
     lv_obj_set_flex_flow(text_container, LV_FLEX_FLOW_ROW);
     lv_obj_set_flex_align(text_container, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER);
